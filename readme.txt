@@ -16,3 +16,4 @@ You can think of the HEAD as the "current branch". When you switch branches with
 22:00	수목미니시리즈 'good-bye 미스터블랙' (7회)  자막방송	15세	
 BBBBBBB
 AAAAAAA
+Omit the preimage for deletes, i.e. print only the header but not the diff between the preimage and /dev/null. The resulting patch is not meant to be applied with patch or git apply; this is solely for people who want to just concentrate on reviewing the text after the change. In addition, the output obviously lack enough information to apply such a patch in reverse, even manually, hence the name of the option.
