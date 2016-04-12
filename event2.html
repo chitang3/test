@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>이벤트</title>
+	<script type="text/javascript">
+		function chColor(obj, state){
+			if(state=="over"){
+				myColor="red";
+			}else{
+				myColor="black";
+			}
+			obj.style.color=myColor;
+		}
+	</script>
+</head>
+<body>
+	<button onmouseover="chColor(this, 'over')"
+	onmouseout="chColor(this,'out')">마우스아웃</button>
+</body>
+</html>

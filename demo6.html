@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var result = confirm("You really want to resigns?");
+		
+		if(result)
+			document.write("Resigns access Successful</br>");
+		else
+			document.write("Cancel Resigns access");
+		
+		var id = "park";
+		var pass = "123";
+		var user_id = prompt("Write your ID", "");
+		var user_pass = prompt("Write you PASSWORD", "");
+		
+		if(id==user_id){
+			if(pass==user_pass){
+				document.write(user_id + "님 반갑습니다</br>");
+			}
+			else{
+				alert("비밀번호가 틀렸습니다.");
+				location.reload();
+			}
+		}
+		else{
+			alert("아이디가 틀렸습니다.</br>");
+			location.reload();
+		}
+	</script>
+</body>
+</html>

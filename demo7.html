@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var input_number=prompt("What do you most like number?","");
+		
+		var number;
+		
+		switch(input_number)
+		{
+		case "1" :
+			number = 1;
+			break;
+		case "2" :
+			number = 2;
+			break;
+		case "3" :
+			number = 3;
+			break;
+		default : 
+			number = "1 2 3 외의 숫자";
+		}
+		document.write("너가 제일 좋아하는 숫자는 " + number + "입니다.</br>");
+		
+		var i = 20;
+		
+		while(i>=10)
+		{
+			if(i%2==0)
+				document.write("<font color='blue'>" + i + "</font>"+"<br/>");
+			else
+				document.write("<font color='red'>" + i + "</font>"+"<br/>");
+			
+			i--;
+		}
+		
+		document.write("구구단을 한번 외워보겠습니다 하하</br>");
+		
+		var x = 2;
+		var y = 1;
+		
+		for(x; x<10; x++){
+			for(y;y<10;y++){
+				document.write(x + "x" + y + " = " + x*y + "</br>");
+			}
+			document.write("</br>");
+			y=1;
+		}
+		
+	</script>
+</body>
+</html>

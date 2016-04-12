@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var tv = new Object();
+		
+		tv.width = "30cm";
+		tv.height = "25cm";
+		tv.weight = "20kg";
+		tv.color="black";
+		
+		tv.off=function(){
+			document.write("전원 off</br>");
+		}
+		
+		tv.sepc=function(){
+			document.write(tv.width+"</br>");
+			document.write(tv.height+"</br>");
+			document.write(tv.weight+"</br>");
+			document.write(tv.color+"</br>");
+		}
+		
+		tv.sepc();
+		tv.off();
+		
+		var d = [30, "홍길동", true];
+		for(var i =0; i<d.length;i++){
+			document.write(d[i],"</br>");
+		}
+		
+		for(var i in d){
+			document.write(d[i], "</br>");
+		}
+	</script>
+</body>
+</html>

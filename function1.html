@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		var i = 0;
+		var color = ["blue", "red", "aqua", "yellow", "purple"];
+		
+		function colorBag(){
+			i++;
+			if(i>=color.length)
+				i=0;
+			var bodyTag = document.getElementsByTagName("body")[0];
+			bodyTag.style.backgroundColor=color[i];
+		}
+	</script>
+</head>
+<body>
+	<button onclick="colorBag();">배경색 바꾸기</button>
+	
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+	<h1>선호하는 음식</h1>
+	<div id="food_1">
+		<h2 id="title">한식</h2>
+		<ol>
+			<li id="kimchi">
+				<a href="#">김치</a>
+			</li>
+			<li>불고기</li>
+			<li>비빔밥</li>
+		</ol>
+</div>
+<div id ="food2">
+	<h2>양식</h2>
+	<ol id ="list">
+		<li>돈까스</li>
+		<li id="pizza">피자</li>
+		<li>파스타</li>
+	</ol>
+	<script type="text/javascript">
+		document.getElementsByTagName("h1")[0].style.color="green";
+		document.getElementById("title").style.color="red";
+		
+		var myList=document.getElementById("food_1").getElementsByTagName("li")[1];
+		myList.style.backgroundColor="red";
+	</script>
+</div>
+</body>
+</html> 
