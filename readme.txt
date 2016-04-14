@@ -21,4 +21,8 @@ dsadasdaasaasdasdasd
 d
 ONE TWO THREE
 FOURaasdasdasdasdas
+<<<<<<< HEAD
 erwbrekbrwbwekberw
+=======
+dsfsfdsfddsfdsf
+>>>>>>> refs/heads/test
