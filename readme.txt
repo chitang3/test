@@ -1,4 +1,4 @@
-AAAAA
+﻿AAAAA
 You can think of the HEAD as the "current branch". When you switch branches with git checkout, the HEAD revision changes to point to the tip of the new branch.
 가나다라마바사아자차카타파하
 12:00	MBC 정오 뉴스  생방송  자막방송  수화방송		
@@ -14,3 +14,4 @@ You can think of the HEAD as the "current branch". When you switch branches with
 20:55	MBC 일일특별기획 '아름다운 당신'  자막방송	15세	예고보기
 21:30	리얼스토리 눈  자막방송	15세	
 22:00	수목미니시리즈 'good-bye 미스터블랙' (7회)  자막방송	15세	
+추가부분
